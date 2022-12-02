@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+
+        <title>Login-GameMania</title>
+    </head>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #344478;
+        }
+        #login{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 650px;
+        }
+        .area{
+            background-color: rgba(19, 19, 19, 0.3);
+            padding: 40px;
+            width: 280px;
+        }
+        .areaLogin{
+            display: flex;
+            flex-direction: column;
+            padding: 10px 0;
+            color: #fff;
+        }
+        .enviar{
+            width: 100%;
+            height: 40px;
+            background-color: #a13854;
+            border: none;
+            color: #fff;
+            margin: 10px 0;
+        }
+        .enviar:hover{
+            background-color: #7e2d42;
+        }
+        .cardEnviar {
+            display: flex;
+            flex-direction: column;
+        }
+        .cardEnviar a{
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            color: #ffff;   
+        }
+        .recuperarSenha a{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            text-align: center;
+            text-decoration: none;
+            font-size: 10px;
+            color: #ffff;
+        }
+    </style>
+
+    <body>
+        <div id="login">
+            <form class="area">
+                <h2 style="text-align:center; text-decoration:none;">LOGIN</h2>
+
+                <div>
+                    <div class="areaLogin">
+                        <label for="usuario">Usuário:</label>
+                        <input type="text" id="usuario" autocomplete="off">
+                    </div>
+
+                    <div class="areaLogin">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="cardEnviar">
+                    <a class="enviar" href="index.html"><p>LOGIN</p></a>
+                </div>
+
+                <div class="recuperarSenha">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

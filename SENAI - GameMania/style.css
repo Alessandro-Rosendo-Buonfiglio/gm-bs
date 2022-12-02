@@ -1,0 +1,227 @@
+html{margin:0;padding:0;}
+body {margin:0;}
+
+/*menuStyle*/
+#menu{
+    width: 100%;
+    height: 295px;
+    background: #323232;
+    border-radius: 0px 0px 250px 0px;
+}/*fim menu1*/
+
+/*menuStyle2*/
+header{
+    box-sizing: border-box;
+    position: absolute;
+    border-bottom: 5px solid rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 316px;
+    background:rgba(0, 133, 255);
+    left: 0px;
+    top: 0px;
+}/*fim menu2*/
+
+/*imagem gm*/
+#gm{
+    width: 275px;
+    height: 210px;
+    top: 10%;
+    left: 2%;
+    position: absolute;
+}/*fim imagem gm*/
+
+/*ul li*/
+ul{
+    position: absolute;
+    top: 5%;
+    width: 85%;
+}
+/*li*/
+.nav{
+    float: right;
+    display: block;
+    list-style-type: none;
+    margin-left: 10px;
+    left: 730px;
+    top: 33px;
+    background: #ffffff70;
+}
+.nav a{
+    display: flex;
+    padding: 2px 10px;
+
+    /* fonte */
+    text-decoration: none;
+    text-align: center;
+    font-style: normal;
+    font-size: 15px;
+    color: #ffffff;
+}
+.nav a:hover{
+    color: #323232;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px 1px #ffffff;
+}
+.nav a:hover:not(.active){
+    background-color: #ffffff;
+}/*fim ul li*/
+
+/*icone*/
+.drop {
+    margin-top: -9px;
+}
+li a, .drop{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+li.dropdown{
+    float: right;
+    display: block;
+    list-style-type: none;
+    margin-left: 15px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #ffffff97;
+    width: 80px;
+    z-index: 1;
+    text-decoration: none;
+}
+.dropdown-content a{
+    display: block;
+    text-align: center;
+} 
+.dropdown-content a:hover{
+    box-shadow: none;
+    background-color: #ffffff;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}/*fim icone*/
+
+/*texto menu*/
+#textoMenu{
+    position: absolute;
+    width: 708px;
+    height: 160px;
+    left: 30%;
+    top: 61px;
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}/*fim texto menu*/
+
+/*pesquisa*/
+#barra{
+    position: absolute;
+    align-items: center;
+    left: 40%;
+    top: 70%;
+}/*fim pesquisa*/
+
+/*promo*/
+#promo{
+    position: relative;
+    margin-top: 22.2%;
+    width: 100%;
+}/*fim promo*/
+
+/*controle*/
+#dual{
+    position: relative;
+    width: 1000px;
+    height: 260px;
+    margin-top: 7%;
+    left: 13%;
+}/*fim controle*/
+
+/*cards*/
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}.container2{
+    margin-top: 30px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(222, 222, 222);
+    width: 250px;
+    height: 374px;
+    margin: 10px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}.card h3{
+    margin-top: 10px;
+    text-align: center;
+}.card p{
+    text-align: center;
+    margin: 5px 0 0 0;
+}.card button{
+    margin-left: 3px;
+    margin-top: 5px;
+    width: 120px;
+    height: 30px;
+    background-color: black;
+}.card button:hover{
+    box-shadow: 0 0 0px 1px #000000;
+    cursor: pointer;
+}.card button a{
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}.cardImage{
+    background-image: url(img/pc.png);
+    background-size: cover;/*faz com que a imagem se ajuste ao tamanho do loncal onde coloca*/
+    background-color: rgba(128, 128, 128, 0.355);
+    height: 190px;
+}/*fim cards*/
+
+/*aniversario*/
+#niver{
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+}/*fim aniversario*/
+
+/*footer*/
+footer{
+    position:relative;
+    width: 100%;
+    height: 450px;
+    left: 0;
+    bottom: 0;
+    background-color: #e3e3e3;
+}footer img{
+    width: 290px;
+    height: 240px;
+    margin-left: 150px;
+}.contato{
+    margin: 20px 0 0 50px;
+    margin-left: 300px;
+}footer a{
+    text-decoration: none;
+    color: black;
+}.gh:hover{
+    text-decoration: underline;
+}
+#footer2{
+    position:absolute;
+    width: 55%;
+    height: 450px;
+    left: 45%;
+    bottom: 0;
+    background-color: #d7d7d7;
+}/*fim footer*/
